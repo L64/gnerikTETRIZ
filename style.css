@@ -13,6 +13,8 @@ canvas {
     font-family: Arial, sans-serif;
     font-size: 30px;
     font-weight: bold;
-    background-color: white;
+    font-style: normal;
+    color: white;
+    background-color: green;
     cursor: pointer;
 }
