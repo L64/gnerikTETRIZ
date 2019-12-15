@@ -1,2 +1,16 @@
-gnerikTETRIZ v.1.0 (from 2019)
-Based in <a href="https://github.com/dionyziz/canvas-tetris">HTML5 Tetris</a> (by Dionysis Zindros <a href="https://dionyziz.com/">HTML5 Tetris</a> )
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>gnerikTETRIZ</title>
+        <link rel='stylesheet' href='style.css' />
+    </head>
+    <body>
+        <audio id="clearsound" src="sound/pop.ogg" preload="auto"></audio>
+        <canvas width='300' height='600'></canvas>
+        <button id="playbutton" onclick="playButtonClicked();">Play</button>
+        <script src='js/tetris.js'></script>
+        <script src='js/controller.js'></script>
+        <script src='js/render.js'></script>
+        <a href="about.html">About</a>
+    </body>
+</html>
